@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head{
+    height: 30vh;
+    background: orange;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+	position: relative;
+}
+
+label{
+	margin-top: 24px;
+	font-family: monospace;
+	font-size: 43px;
+}
+
+.form-field{
+    border: 2px solid black;
+	padding:30px 40px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+/*class for adjust fonts*/
+.font-style{
+	font-family:monospace;
+	font-size:50px;
+}
+
+.div-form{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#label{
+	font-size:25px;
+	font-family: monospace;
+}
+
+/*set button color and background*/
+.button{
+	background-color:fuchsia ;
+	font-size: 23px;
+	font-family: monospace;
+	border-radius: 12px;
+	margin-top: 12px;
+	margin-bottom: 14px;
+}
+/*link of forgot password*/
+
+/*for input field*/
+input{
+	font-size: 23px;
+	border: 1px solid;
+	border-radius: 10px;
+	padding: 6px 18px;
+}
+
+.forgot-pass a{
+	font-size:23px;
+	font-family: monospace;
+	margin-left: 26px;
+}

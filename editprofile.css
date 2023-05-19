@@ -1,0 +1,44 @@
+*{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content{
+    position: relative;
+    top: 14vh;
+}
+
+.content .profile{
+    min-height: auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;   
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    background: white;
+    flex-direction: column;
+}
+
+.content .profile form table{
+    text-align: center;
+}
+
+.content .profile form table tr td{
+    padding:10px 20px;
+    font-size: 24px;
+}
+
+.content .profile form table tr td input{
+    padding:4px 10px;
+    font-size: 17px;
+    border-radius: 8px;
+    border-style: groove;
+}
+
+.content .profile form table tr td input:hover{
+    padding:8px 20px;
+    font-size: 22px;
+    border-radius: 10px;
+    border-style: groove;
+    border: 2px solid blueviolet;
+}

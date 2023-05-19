@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color:rgb(213,222,222);
+    min-height: 100vh;
+}
+
+/* side menu css */
+.side-menu{
+    position: fixed;
+    background: #f05462;
+    width: 20vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+li{
+    list-style: none;
+}
+
+.side-menu .profile{
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: yellowgreen;
+}
+
+.side-menu li {
+    font-size: 26px;
+    padding: 10px 40px;
+    color: blue;
+    display: flex;
+    align-items:center;
+}
+
+.side-menu a{
+    text-decoration: none;
+    border-bottom: none;
+    margin-bottom:15px;
+    margin-top: 12px;
+}
+
+.side-menu li:hover{
+    background: white;
+    color: black;
+}
+
+
+
+/* .side-menu a li:any-link{
+    position: fixed;
+    background-color: white;
+    font-weight: bold;
+}
+
+.side-menu a li::active{
+    position: fixed;
+    background-color: white;
+    font-weight: bold;
+}
+
+.side-menu a .active{
+    position: fixed;
+    background-color: white;
+    font-weight: bold;
+} */
+
+/* side menu css end */
+
+/* container */
+.container{
+    position: absolute;
+    right: 0;
+    width: important 80vw;
+    height: important 100vh;
+    background: #f1f1f1;
+}
+
+.container .header{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 80vw;
+    height: 10vh;
+    background:#f05462;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.container .row{
+    align-items: center;
+    justify-content: center;
+}
+/* end container */

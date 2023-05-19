@@ -1,0 +1,62 @@
+.content{
+    position: inherit;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: important 13vw;
+}
+
+.content .cards{
+    padding: 20px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .content2{
+    min-height: 59vh;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.content .content2 .issuebook{
+    min-width: 70vh;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border-bottom: 2px solid black;
+}
+
+.content .content2 form table{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: initial;
+}
+
+td{
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td input{
+    font-size: 23px;
+    padding: 5px 23px;
+    border-radius: 12px;
+    border-style: groove;
+}
+
+td select{
+    padding: 10px 60px;
+}

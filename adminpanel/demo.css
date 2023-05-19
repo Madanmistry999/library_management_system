@@ -1,0 +1,82 @@
+.content{
+    position: relative;
+    float: right;
+    top: 10vh;
+    right: 20px;
+    height: 87vh;
+    width: 75vw;
+    font-size: 35px;
+    background: whitesmoke;
+    box-sizing: border-box;
+    border-radius: 13px;
+    border: 1px solid;
+    margin: 15px 20px;
+}
+
+.content .cards{
+    padding: 20px 15px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.content .cards .card1{
+    width: 300px;
+    display: flex;
+    height: 140px;
+    text-align: center;
+    width: 250px;
+    height: 150px;
+    background: white;
+    margin: 10px 20px;
+    border-radius: 6px;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.content .content2{
+    min-height: 59vh;
+    display: flex;
+    background: yellowgreen ;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.content .content2 .recent_payment{
+    min-height: 57vh;
+    flex: 5;
+    background: white;
+    margin: 0 25px 25px 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+}
+
+.content .content2 .newstudent{
+    flex: 2;
+    background: white;
+    min-height: 57vh;
+    margin: 0 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 10px;
+    border-bottom: 2px solid black;
+}
+
+table{
+    padding: 15px;
+}
+
+th,td{
+    text-align: left;
+    padding: 10px;
+}

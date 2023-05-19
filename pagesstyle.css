@@ -1,0 +1,199 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content{
+    position: initial;
+    width: 100%;
+    height: auto;
+}
+
+/* header css */
+.content .header {
+    position: initial;   
+    width: 100%;
+    background: black;
+    height: 10vh;
+}
+
+.content .header img{
+    position: relative;
+    margin-left: 14px;
+    margin-bottom: 14px;    
+}
+
+.content .header label{
+    color: white;
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding:  12px 27px;
+}
+
+.content .header div{
+    right: 19px;
+    margin: 19px 40px;
+    float: right;
+}
+
+.content .header div a{
+    text-decoration: none;
+    font-size: 19px;
+    letter-spacing: 0.5px;
+    margin: 10px 20px;
+    color: white;
+}
+
+.content .header div a:hover{
+    border:1px solid white;
+    padding: 4px 12px;
+    border-radius: 9px;
+    transition: linear;
+}
+
+/* header css end */
+
+/* body css */
+
+.content .body{
+    position:initial; 
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height:auto;
+    width: 100%;
+    background: whitesmoke;
+
+}
+
+.body .content1{
+    position: initial;
+}
+
+.content .body img{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content .bookinfo{
+    position: relative;
+    min-height: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    display: flex;
+}
+
+.content .bookinfo .issuedbook{
+    min-height: auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    flex-direction: column;
+    margin: 20px 0;
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 5px 10px;
+    border-bottom: 2px solid black;
+}
+
+.content .bookinfo .issuedbook table{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content .bookinfo .issuedbook table th{
+    padding:10px 20px;
+    border-bottom:2px solid black ;
+}
+
+td{
+    padding: 20px 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .profile{
+    position: relative;
+    min-height: auto;
+    justify-content: space-around;
+    align-items: flex-start;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 50px;   
+}
+
+.content .profile .profile-data{
+    min-height: auto;
+    background: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    display: flex;
+    flex-direction: column;
+}
+
+.content .profile table{
+    text-align: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.content .profile table tr td a{
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.content .profile table tr td a:hover{
+    text-decoration: underline;
+    font-family: monospace;
+    font-size: 25px;
+}
+
+.content .profile table th{
+    padding:10px 20px;
+}
+/* body css end */
+
+/* footer css */
+
+.content .footer{
+    position: initial;
+    background: rgba(0, 0, 0, 0.70);
+    height: 15vh;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .footer label{
+    margin: 10px 0;
+    font-size: 26px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;  
+}
+
+.content .footer h4{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;  
+}
+/* footer css end */
+
+.active{
+    border:2px solid white;
+    padding: 4px 12px;
+    border-radius: 9px;
+}

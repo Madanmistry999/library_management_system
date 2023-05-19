@@ -1,0 +1,81 @@
+*{
+	background-color: rgb(300,500,700);
+	margin:0;
+}
+
+.container{
+    position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+
+.text{
+    margin-left: auto;
+    margin-right: auto;
+	text-align: center;
+	font-size: 36px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	margin-top: 40px;
+}
+
+.text h1{
+	margin-bottom: 10px;
+}
+
+.form-table{
+	margin-top: 56px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	align-items: center;
+	justify-content: center;
+    /*align-items: center;*/
+}
+
+.form-table tr{
+    margin: 13px;
+}
+
+/* 
+.form-table tr td{
+	margin-top: 20px;
+	margin-bottom: 20px;
+} */
+
+.form-table tr td label{
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	color:black;
+}
+
+.form-table tr td input{
+	border-radius: 10px;
+	border-style: groove;
+	font-size: 20px;
+	font-family: 'Courier New', Courier, monospace;
+	font-weight: bold;
+	/* text-align: center; */
+	padding: 6px 6px 6px 6px;
+}
+
+.button-css{
+	margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+	text-align: center;
+}
+
+.button-css button{
+	background-color: skyblue;
+	border:1px solid;
+	font-size:30px ;
+	font-family: monospace;
+	text-align: center;
+	padding: 7px 40px;
+}

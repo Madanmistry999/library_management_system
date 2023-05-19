@@ -1,0 +1,90 @@
+*{
+	margin: 0;
+}
+
+.body{
+	position: relative;
+	width: 100vw;
+	background-color:rgb(213,222,222);
+}
+
+/*image set */
+.image{
+	top: 40px;
+	left: 65px;
+	position:absolute;
+}
+
+.head{
+	border-bottom: 2px solid;
+	margin-bottom: 35px;
+}
+
+/*for form set*/
+
+.div2{
+	position: absolute;
+	width:100%;
+}
+
+.form{
+	position:absolute;
+	top: 180px;
+	right: 200px;
+	width: fit-content;
+}
+
+/*class for adjust fonts*/
+.font-style{
+	font-family:monospace;
+	font-size:50px;
+}
+
+.div-form{
+	margin-top:15px;
+	margin-bottom:15px;
+}
+
+#label{
+	font-size:25px;
+	font-family: monospace;
+}
+
+/*set button color and background*/
+.button{
+	background-color:fuchsia ;
+	font-size: 23px;
+	font-family: monospace;
+	border-radius: 12px;
+	margin-top: 12px;
+	margin-bottom: 14px;
+}
+/*link of forgot password*/
+
+/*for input field*/
+input{
+	padding: 5px 10px;
+	font-size: 23px;
+	border: 1px solid;
+	border-radius: 10px;
+}
+
+.forgot-pass a{
+	font-size:23px;
+	font-family: monospace;
+	margin-left: 26px;
+}
+
+.register{
+	margin-top: 12px;
+	margin-right: 12px;
+}
+
+.errmsg{
+	color: red;
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	align-items: center;
+	background: yellow;
+}

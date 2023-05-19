@@ -1,0 +1,37 @@
+.content{
+    text-align: center;
+    align-content: center;
+    height: auto;
+}
+
+.content .cards{
+    padding: 20px 15px;
+    align-items: center;
+    justify-content: center;
+}
+
+.content .cards .card1{
+    text-align: center;
+    height: auto;
+    background: white;
+    margin: 10px 20px;
+    border-radius: 16px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.newstudent{
+    background: white;
+    margin: 0 25px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+table{
+    padding: 25px;
+}
+
+th,td{
+    text-align: left;
+    padding: 30px;
+}

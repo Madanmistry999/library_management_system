@@ -1,0 +1,68 @@
+  <header class="header" id="header">
+        <div class="header_toggle"> <i class='bx bx-menu' id="header-toggle"></i> </div>
+        <div class="header_img"> library system</div>
+    </header>
+
+    <div class="l-navbar" id="nav-bar">
+        <nav class="nav">
+            <div> <a href="#" class="nav_logo"> </i> <span class="nav_logo-name">BBBootstrap</span> </a>
+                <div class="nav_list"> <a href="#" class="nav_link active"> <i class='bx bx-grid-alt nav_icon'></i> <span class="nav_name">Dashboard</span> </a> <a href="#" class="nav_link"> <i class='bx bx-user nav_icon'></i> <span class="nav_name">Users</span> </a> <a href="#" class="nav_link"> <i class='bx bx-message-square-detail nav_icon'></i> <span class="nav_name">Messages</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bookmark nav_icon'></i> <span class="nav_name">Bookmark</span> </a> <a href="#" class="nav_link"> <i class='bx bx-folder nav_icon'></i> <span class="nav_name">Files</span> </a> <a href="#" class="nav_link"> <i class='bx bx-bar-chart-alt-2 nav_icon'></i> <span class="nav_name">Stats</span> </a> </div>
+            </div> <a href="#" class="nav_link"> <i class='bx bx-log-out nav_icon'></i> <span class="nav_name">SignOut</span> </a>
+        </nav>
+    </div>
+
+    <div class="height-100 bg-light">
+        <h4>Main Components</h4>
+    </div>
+
+
+    /* 
+.side-nav{
+	width: 250px;
+	height: 70vh;
+	position: absolute;
+	top: 30;
+	left: 40;
+}
+
+.nav-link{
+    list-style: none;
+    position: inherit;
+    margin-top: 16px;
+}
+
+.nav-link li{
+    padding:6px 20px;
+}
+
+.nav-link li a{
+    padding: 6px 24px;
+    border-radius: 8px;
+    color:blue;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+    align-items: center;
+}
+
+.nav-link li a:hover{
+    background-color:yellowgreen;
+    stroke-width: 0%;
+} */
+
+
+/* 
+.container h1{
+    font-size: 40px;
+    font-weight:bold;
+    text-align: center;
+}
+
+.header{
+    width: 18%;
+    height:auto;
+    background-color:#e2e9f7 ;
+}
+
+.header a{
+    color:white;
+} */
