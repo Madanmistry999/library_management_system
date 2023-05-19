@@ -41,8 +41,8 @@
 		<div class="body">
 
 			<div class="image">
-				<!-- Remove madan mistry-->
-				Madan Mistry <img src="assets/lib.jpg" height="20%" width="30%">
+				
+				<img src="assets/lib.jpg" height="20%" width="30%">
 				
 			</div>
 
