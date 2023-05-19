@@ -42,7 +42,7 @@
 
 			<div class="image">
 
-				<img src="assets/lib.jpg" height="20%" width="30%">
+				Madan Mistry <img src="assets/lib.jpg" height="20%" width="30%">
 				
 			</div>
 
